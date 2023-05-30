@@ -201,9 +201,11 @@ function show_infobox(element_number){
 	document.getElementById(element_id).setAttribute('display', 'block');
 }
 function hide_all_infoboxes(){
+	alert ("Test 1");
 	for (let i=1; i<=5; i++) {
 		hide_infobox(i);
-	}	  
+	}
+	alert ("Test 2");	  
 }
 function hide_infobox(element_number){
 	element_id = "infotext_" + element_number;
