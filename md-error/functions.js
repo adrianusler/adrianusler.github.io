@@ -195,3 +195,9 @@ function start(){
 	window.my_master = new SimulationMaster();
 	window.my_master.update_calculation(null, true);//{update_range: true}
 }
+
+function show_infobox(element_number){
+	element_id = "infotext_" + element_number;
+	document.getElementById(element_id).setAttribute('display', 'block');
+	alert("TEST");
+}
