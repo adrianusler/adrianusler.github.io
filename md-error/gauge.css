@@ -1,0 +1,60 @@
+.semicircle{
+    width: 200px;
+    height: 100px; /* as the half of the width */
+    /* background-color: gold;*/
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid gray;
+    border-bottom: 0;
+}
+.pointer{
+    display: block;
+    position: relative;
+    width: 105px;
+    height: 10px;
+    background-color: black/*red*/;
+    border-radius: 100% 0% 0% 100%;
+    transform: translate(-5px, 95px) rotate(0deg);
+    transform-origin: center right;
+}
+
+@font-face {
+    font-family: digital7;
+    src: url(digital7.ttf);
+}
+
+.calculator{
+    font-family: digital7;
+    font-size: larger;
+    color: whitesmoke;
+    background-color: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    /* width: 80%;*/
+    line-height: 1.15;
+}
+
+@media screen and (max-width: 800px){
+    .calculator{
+        font-family: digital7;
+        font-size: 3vw;
+        color: whitesmoke;
+        background-color: grey;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 2px;
+        border-radius: 5px;
+        margin-bottom: 6px;
+        /* width: 80%;*/
+        line-height: 1.15;
+    }    
+}
+
+@media screen and (max-width: 500px){
+    .calculator{
+        font-size: 4vw;
+    }
+}

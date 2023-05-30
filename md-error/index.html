@@ -1,0 +1,89 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="online_style.css" />
+    <link rel="stylesheet" href="gauge.css" />
+    <!-- <link rel="stylesheet" href="mobile.css" /> -->
+    <script src="functions.js" ></script><!--  type="text/javascript" -->
+    </head>
+    <body onload="start();">
+        <div class="container">
+            <h3>The relative error in a tracer diffusion coefficient from a Molecular-Dynamics simulation</h3>
+            <!-- If you find our expression for the relative error useful, please make sure you cite our publication* when making use of it for your research.<br/>
+            Thank you!<br/>-->
+            Usler, Kemp, Bonkowski, De Souza, <i>J. Comp. Chem.</i>, <b>44</b> (2023) 1347, <a href="https://doi.org/10.1002/jcc.27090" target="_blank">10.1002/jcc.27090</a>
+            <table style="width: 100%; margin-top: 20px;">
+                <tr>
+                <td style="vertical-align: top; width: 50%;">
+                    <h4>Simulation precision</h4>
+                    <div style="width: 90%;">
+                        <div id="relerr_output" class="calculator">
+                            rel. error: 
+                        </div>
+                        <!--<div id="NkJ_output" class="calculator">
+                            Particles jumped: 
+                        </div>-->
+                    </div> 
+                </td>    
+                <td style="vertical-align: top; width: 50%;">
+                    <h4>Simulation efficiency</h4>
+                    <div id="efficiency_barometer">
+                        <svg viewBox="0 0 220 120" width="80%">
+                            <path id="region_shortrange" d="M 10 110 A 100 100 0 0 1 17.61 71.73" stroke='#d00' stroke-width=10 fill="none"></path>
+                            <path id="region_mediumrange" d="M 17.61 71.73 A 100 100 0 0 1 39.29 39.29" stroke='#dd0' stroke-width=10 fill="none"></path>
+                            <path id="region_optimal" d="M 39.29 39.29 A 100 100 0 0 1 180.71 39.29" stroke='#0d0' stroke-width=10 fill="none"></path>
+                            <path id="region_plateau_onset" d="M 180.71 39.29 A 100 100 0 0 1 202.39 71.73" stroke='#dd0' stroke-width=10 fill="none"></path>
+                            <path id="region_plateau" d="M 202.39 71.73 A 100 100 0 0 1 210 110" stroke='#d00' stroke-width=10 fill="none"></path>
+                            <polyline id="efficiency_pointer" points="110, 114 10, 110 110, 106" stroke='#555' fill='#ddd' transform="rotate(81.5 110 110)"></polyline>
+                            <circle cx="110" cy="110" r="7" stroke="#555" fill="#ddd"></circle>
+                        </svg>
+                    </div>
+                </td>
+                </tr>
+            </table>
+            <table><tr>
+                <td style="vertical-align: top;">
+                    <div id="global_parameters_div">
+                        <h4>Simulation cell parameters</h4>
+                        <div class="input-group input-group-icon">
+                            <input id="Nk" value="100"  onchange="my_master.update_calculation();" />
+                            <div class="input-icon"><i>N<sub>k</sub></i></div>
+                            <div class="info">?<div class="infotext">No. of tracer particles</div></div>
+                        </div>
+                        <div class="input-group input-group-icon">
+                            <input id="sk" value="5" onchange="my_master.update_calculation();" />
+                            <div class="input-icon"><i>s<sub>k</sub></i></div>
+                            <div class="info">?<div class="infotext leftside">Jump distance (&#8491;)</div></div>
+                        </div>
+                        <div class="input-group input-group-icon">
+                            <input id="dim" value="3" onchange="my_master.update_calculation();"/>
+                            <div class="input-icon"><i>d</i></div>
+                            <div class="info">?<div class="infotext leftside">Lattice dimensionality</div></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <div id="simulations_div">
+                        <h4>Simulation run parameters</h4>
+                        <div id="simulation_0">
+                            <div class="input-group input-group-icon">
+                                <input id="Nruns0" type="text" value="1" onchange="my_master.update_calculation(0);"/>
+                                <div class="input-icon"><i>N</i><sub>runs</sub></div>
+                                <div class="info">?<div class="infotext rightside">No. of independent runs</div></div>
+                            </div>
+                            <div class="input-group input-group-icon">
+                                <input id="MSDend0" type="text" value="1" onchange="my_master.update_calculation(0);"/>
+                                <div class="input-icon"><i>r<sub>k</sub><sup>2</sup></i></div>
+                                <div class="info">?<div class="infotext rightside">Mean squared displacement (&#8491;<sup>2</sup>)</div></div>
+                            </div>
+                        </div>
+                        <input type="hidden" id="current_id" value="0" />
+                        <!--<div id="simulation_1">
+                            <button id="mybutton" onclick="my_master.add_simulation();">+</button>
+                        </div>-->
+                    </div>
+                </td>
+            </tr></table>
+        </div>
+    </body>
+</html>
