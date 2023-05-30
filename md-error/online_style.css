@@ -154,6 +154,7 @@ input:focus + .input-icon:after {
 }
 @media screen and (max-width: 500px){
   input{
+    width: 80%;
     padding: 1vw;
     font-size: 3.5vw;
     height: 8vw;
@@ -173,6 +174,11 @@ input:focus + .input-icon:after {
     bottom: 0vw;
     left: 10vw;
   }  
+}
+@media screen and (max-width: 500px) and (orientation: landscape){
+  input{
+    width: 90%;
+  }
 }
 
 
