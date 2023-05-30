@@ -175,12 +175,6 @@ input:focus + .input-icon:after {
     left: 10vw;
   }  
 }
-@media screen and (max-width: 500px) and (orientation: landscape){
-  input{
-    width: 90%;
-  }
-}
-
 
 .info{
   background-color: #f9f9f9;
