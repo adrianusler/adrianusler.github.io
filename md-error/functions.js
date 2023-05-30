@@ -199,5 +199,8 @@ function start(){
 function show_infobox(element_number){
 	element_id = "infotext_" + element_number;
 	document.getElementById(element_id).setAttribute('display', 'block');
-	alert("TEST");
+}
+function hide_infobox(element_number){
+	element_id = "infotext_" + element_number;
+	document.getElementById(element_id).setAttribute('display', 'none');
 }

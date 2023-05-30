@@ -44,21 +44,21 @@
             <table><tr>
                 <td style="vertical-align: top;">
                     <div id="global_parameters_div">
-                        <h4>Simulation cell Parameters</h4>
+                        <h4>Simulation cell parameters</h4>
                         <div class="input-group input-group-icon">
                             <input id="Nk" value="100"  onchange="my_master.update_calculation();" />
                             <div class="input-icon"><i>N<sub>k</sub></i></div>
-                            <div class="info" onclick="show_infobox(1);">?<div class="infotext" id="infotext_1">No. of tracer particles</div></div>
+                            <div class="info" onclick="show_infobox(1);">?<div class="infotext" id="infotext_1" onclick="hide_infobox(1);">No. of tracer particles</div></div>
                         </div>
                         <div class="input-group input-group-icon">
                             <input id="sk" value="5" onchange="my_master.update_calculation();" />
                             <div class="input-icon"><i>s<sub>k</sub></i></div>
-                            <div class="info" onclick="show_infobox(2);">?<div class="infotext leftside" id="infotext_2">Jump distance (&#8491;)</div></div>
+                            <div class="info" onclick="show_infobox(2);">?<div class="infotext leftside" id="infotext_2" onclick="hide_infobox(2);">Jump distance (&#8491;)</div></div>
                         </div>
                         <div class="input-group input-group-icon">
                             <input id="dim" value="3" onchange="my_master.update_calculation();"/>
                             <div class="input-icon"><i>d</i></div>
-                            <div class="info" onclick="show_infobox(3);">?<div class="infotext leftside" id="infotext_3">Lattice dimensionality</div></div>
+                            <div class="info" onclick="show_infobox(3);">?<div class="infotext leftside" id="infotext_3" onclick="hide_infobox(3);">Lattice dimensionality</div></div>
                         </div>
                     </div>
                 </td>
@@ -69,12 +69,12 @@
                             <div class="input-group input-group-icon">
                                 <input id="Nruns0" type="text" value="1" onchange="my_master.update_calculation(0);"/>
                                 <div class="input-icon"><i>N</i><sub>runs</sub></div>
-                                <div class="info" onclick="show_infobox(4);">?<div class="infotext rightside" id="infotext_4">No. of independent runs</div></div>
+                                <div class="info" onclick="show_infobox(4);">?<div class="infotext rightside" id="infotext_4" onclick="hide_infobox(4);">No. of independent runs</div></div>
                             </div>
                             <div class="input-group input-group-icon">
                                 <input id="MSDend0" type="text" value="1" onchange="my_master.update_calculation(0);"/>
                                 <div class="input-icon"><i>r<sub>k</sub><sup>2</sup></i></div>
-                                <div class="info" onclick="show_infobox(5);">?<div class="infotext rightside" id="infotext_5">Mean squared displacement (&#8491;<sup>2</sup>)</div></div>
+                                <div class="info" onclick="show_infobox(5);">?<div class="infotext rightside" id="infotext_5" onclick="hide_infobox(5);">Mean squared displacement (&#8491;<sup>2</sup>)</div></div>
                             </div>
                         </div>
                         <input type="hidden" id="current_id" value="0" />
