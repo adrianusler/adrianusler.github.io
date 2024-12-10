@@ -9,6 +9,6 @@
 <summary>Read more</summary>
 <br>
 {{item.abstract}}
-{% endif %}
 </details>
+{% endif %}
 {% endfor %}
