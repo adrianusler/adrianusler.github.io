@@ -1,0 +1,1 @@
+<div class="badge-base LI-profile-badge" data-locale="de_DE" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="adrianusler" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/adrianusler?trk=profile-badge">Adrian Usler</a></div>
