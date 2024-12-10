@@ -8,11 +8,7 @@ In the simplest case, the counter-charged ions (e.g., acceptor cations) are assu
 
 In my research, I have studied by means of continuum (FEM) simulations how electrical properties are related to &Phi;<sub>0</sub> in more complex cases, taking into account the typical thermal history of ceramic samples. Upon sintering, acceptor cations will be mobile and reach electrochemical equilibrium. When the sample is subsequently cooled down, the cations' mobility decreases. At typical measurement conditions (500&ndash;1000 K), the cations may typically be considered to be immobile, with their concentration profile being retained from a high-temperature equilibrium state. This scenarios may be modelled in the scope of the restricted-equilibrium model, in which the cation profile is assumed to be frozen-in abruptly at a transition temperature.
 
-```{image} ./figures/RE_illustration.png
-:alt: re_illustration
-:width: 200px
-:align: center
-```
+![illustration of the restricted-equilibrium model](/figures/RE_illustration.png)
 ### Random-walk statistics on crystal lattices
 ## Methods
 ### Finite Element Method
