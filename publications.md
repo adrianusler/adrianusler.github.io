@@ -3,5 +3,5 @@
 ## Journal Publications
 {% for item in site.data.publications %}
 ### {{item.title}}
-{{item.author}}, <i>{{item.journal}}</i> <b>{{item.volume}}</b>, {{item.pages}} ({{item.year}}){% if item.doi And item.doi != "" And item.doi != nil %}, <a href="{{item.doi}}">DOI</a> {% endif %}.
+{{item.author}}, {% if item.doi And item.doi != "" And item.doi != nil %}<a href="{{item.doi}}">{% endif %}<i>{{item.journal}}</i> <b>{{item.volume}}</b>, {{item.pages}}{% if item.doi And item.doi != "" And item.doi != nil %}</a>{% endif %} ({{item.year}}).
 {% endfor %}
