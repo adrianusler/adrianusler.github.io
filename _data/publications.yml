@@ -1,3 +1,12 @@
+- title: Grain-Boundary Corrosion in UO<sub>2+&delta;</sub> from a Defect Chemical Perspective: A Case Study of the &Sigma;5(310)[001] Grain Boundary
+  author: M. J. Wolf, A. L. Usler, R. A. De Souza
+  journal: ACS Appl. Mater. Interfaces
+  volume: 17
+  year: 2025
+  pages: 7906-7915
+  doi: https://doi.org/10.1021/acsami.4c20688
+  abstract: We combine atomistic and continuum simulation methods to study the defect chemistry of a model grain boundary in UO<sub>2+&delta;</sub>. Using atomistic methods, we calculate the formation energies of oxygen interstitials, uranium vacancies, and hole polarons (U<sup>5+</sup> ions) across the &Sigma;5(310)[001] symmetric tilt grain boundary. This information is then used as input in a continuum model of point-defect concentrations at the grain boundary and in its vicinity, taking into account electrostatic (space-charge) effects. Two scenarios are modeled: one in which oxygen interstitials are the majority ionic defect and one in which uranium vacancies are the majority ionic defect, with bulk charge neutrality being maintained by hole polarons in both cases. Our results indicate that, irrespective of the majority ionic defect, the &Sigma;5(310)[001] grain boundary in UO<sub>2+&delta</sub>; is negatively charged, with positively charged adjacent space-charge zones in which the hole-polaron concentration is enhanced. We propose that the enhanced U<sup>5+</sup> concentration at the grain boundary and within the space-charge zones renders grain-boundary regions more susceptible to oxidative corrosion, an effect that could be counteracted by acceptor doping.
+
 - title: Point-Defect Segregation and Space-Charge Potentials at the &Sigma;5(310)[001] Grain Boundary in Ceria
   author: A. L. Usler, H. J. Heelweg, R. A. De Souza, A. R. Genreith-Schriever
   journal: Solids
