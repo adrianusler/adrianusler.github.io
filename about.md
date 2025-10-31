@@ -9,8 +9,10 @@ Since August 2025 in the group of Prof. Mathijs Janssen at NMBU (&Aring;s, Norwa
 # Studies
 **Doctorate:**
 2020&ndash;2025 in the group of Prof. R. A. De Souza at RWTH Aachen University (Aachen, Germany)
+
 **MSc:**
 2017&ndash;2019 in Chemistry at RWTH Aachen University
+
 **BSc**
 2014&ndash;2017 in Chemistry at RWTH Aachen University
 
