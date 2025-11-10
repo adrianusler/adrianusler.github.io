@@ -1,5 +1,5 @@
 ---
-title: Title of my site
+title: Adrian Usler
 layout: default
 ---
 
