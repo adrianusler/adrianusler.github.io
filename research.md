@@ -12,11 +12,11 @@ In the scope of simplified models, properties of the grain-boundary space-charge
 
 [comment]: # In my research, I have studied by means of continuum (FEM) simulations how electrical properties are related to &Phi;<sub>0</sub> in more complex cases, taking into account the typical thermal history of ceramic samples. Upon sintering, acceptor cations will be mobile and reach electrochemical equilibrium. When the sample is subsequently cooled down, the cations' mobility decreases. At typical measurement conditions (500&ndash;1000 K), the cations may typically be considered to be immobile, with their concentration profile being retained from a high-temperature equilibrium state. This scenarios may be modelled in the scope of the restricted-equilibrium model, in which the cation profile is assumed to be frozen-in abruptly at a transition temperature.
 
-In my research, I have studied by means of continuum (FEM) simulations how the properties observed in electrical measurements can be affected by the thermal history of ceramic samples. During sample fabrication (sintering), the grain-boundary defect chemistry can undergo irreversible changes (e.g., accumulation of dopants at grain boundaries), which are typically disregarded in the analysis of electrical data.
-
-<div style="text-align: center;">
-  <img src="/figures/RE_illustration.png" alt="illustration of the restricted-equilibrium model" style="max-width: 50%;" />
+<div>
+  <img src="/figures/RE_illustration.png" alt="illustration of the restricted-equilibrium model" style="max-width: 50%; float:right; margin: 10px;" />
 </div>
+
+In my research, I have studied by means of continuum (FEM) simulations how the properties observed in electrical measurements can be affected by the thermal history of ceramic samples. During sample fabrication (sintering), the grain-boundary defect chemistry can undergo irreversible changes (e.g., accumulation of dopants at grain boundaries), which are typically disregarded in the analysis of electrical data.
 
 ## Random-walk statistics on crystal lattices
 The kinetics of ion transport in solid materials can be studied by means of atomistic simulations, by extracting a diffusion coefficient from the ions' trajectories. Specifically, the mean squared displacement (MSD) of the ions is analysed as a function of simulation time. The outcome of such a simulation is inherently subject to statistical uncertainties.
@@ -26,7 +26,7 @@ In my research, I have focused on quantifying these uncertainties, in particular
 # Methods
 ## Finite Element Method
 <div>
-  <img src="/figures/fem_hatfunctions.png" alt="illustration of hat basis functions in FEM" style="max-width: 50%; float:right; margin: 5px" />
+  <img src="/figures/fem_hatfunctions.png" alt="illustration of hat basis functions in FEM" style="max-width: 50%; float:right; margin: 10px;" />
 </div>
 
 The Finite Element Method (FEM) is a numerical technique used to solve differential equations. A particular strength of FEM is its ability to handle arbitrary subdivisions of the simulation domain into smaller, simpler parts (the elements). 
@@ -37,7 +37,7 @@ In the context of my research, FEM is employed to simulate the electrochemical s
 
 ## Kinetic Monte Carlo
 <div>
-  <img src="/figures/random_oscillation_1736982453.png" alt="illustration of the kinetic Monte Carlo (kMC) method" style="max-width: 50%; float:right; margin: 5px;" />
+  <img src="/figures/random_oscillation_1736982453.png" alt="illustration of the kinetic Monte Carlo (kMC) method" style="max-width: 50%; float:right; margin: 10px;" />
 </div>
 
 Kinetic Monte Carlo (kMC) is a stochastic simulation technique used to model the time evolution of a system. Unlike Molecular Dynamics simulations, which explicitly track the positions and velocities of individual atoms, kMC describes events on longer time scales by treating them as random processes with average event rates.
