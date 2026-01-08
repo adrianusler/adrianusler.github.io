@@ -25,8 +25,8 @@ In my research, I have focused on quantifying these uncertainties, in particular
 
 # Methods
 ## Finite Element Method
-<div style="float:right; margin: 5px;">
-  <img src="/figures/fem_hatfunctions.png" alt="illustration of hat basis functions in FEM" style="max-width: 50%;" />
+<div>
+  <img src="/figures/fem_hatfunctions.png" alt="illustration of hat basis functions in FEM" style="max-width: 50%; float:right; margin: 5px" />
 </div>
 
 The Finite Element Method (FEM) is a numerical technique used to solve differential equations. A particular strength of FEM is its ability to handle arbitrary subdivisions of the simulation domain into smaller, simpler parts (the elements). 
@@ -36,8 +36,8 @@ In this way, computational effort can be focused on regions where higher accurac
 In the context of my research, FEM is employed to simulate the electrochemical systems, with a focus on double layers (in liquid electrolytes) and space-charge layers (in solid electrolytes).
 
 ## Kinetic Monte Carlo
-<div style="float:right; margin: 5px;">
-  <img src="/figures/random_oscillation_1736982453.png" alt="illustration of the kinetic Monte Carlo (kMC) method" style="max-width: 50%;" />
+<div>
+  <img src="/figures/random_oscillation_1736982453.png" alt="illustration of the kinetic Monte Carlo (kMC) method" style="max-width: 50%; float:right; margin: 5px;" />
 </div>
 
 Kinetic Monte Carlo (kMC) is a stochastic simulation technique used to model the time evolution of a system. Unlike Molecular Dynamics simulations, which explicitly track the positions and velocities of individual atoms, kMC describes events on longer time scales by treating them as random processes with average event rates.
