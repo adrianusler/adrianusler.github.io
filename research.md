@@ -25,7 +25,16 @@ In my research, I have focused on quantifying these uncertainties, in particular
 
 # Methods
 ## Finite Element Method
-The Finite Element Method (FEM) is a numerical technique used to solve differential equations. A particular strength of FEM is its ability to handle arbitrary subdivisions of the simulation domain into smaller, simpler parts (the elements). In this way, computational effort can be focused on regions where higher accuracy is needed, while coarser discretisations can be used elsewhere.
+<div style="horizontal-align: middle;">
+  <p style="display: inline-block; margin: 0;">
+  The Finite Element Method (FEM) is a numerical technique used to solve differential equations. A particular strength of FEM is its ability to handle arbitrary subdivisions of the simulation domain into smaller, simpler parts (the elements). 
+  </p>
+  <div style="display: inline-block;">
+  <img src="/figures/fem_hatfunctions.png" alt="illustration of hat basis functions in FEM" style="max-width: 50%;" />
+  </div>
+</div>
+
+In this way, computational effort can be focused on regions where higher accuracy is needed, while coarser discretisations can be used elsewhere.
 
 In the context of my research, FEM is employed to simulate the electrochemical systems, with a focus on double layers (in liquid electrolytes) and space-charge layers (in solid electrolytes).
 
