@@ -32,4 +32,8 @@ In the context of my research, FEM is employed to simulate the electrochemical s
 ## Kinetic Monte Carlo
 Kinetic Monte Carlo (kMC) is a stochastic simulation technique used to model the time evolution of a system. Unlike Molecular Dynamics simulations, which explicitly track the positions and velocities of individual atoms, kMC describes events on longer time scales by treating them as random processes with average event rates.
 
+<div style="text-align: center;">
+  <img src="/figures/random_oscillation_1736982453.png" alt="illustration of the kinetic Monte Carlo (kMC) method" style="max-width: 50%;" />
+</div>
+
 In my research, kMC is utilized to study the random-walk behavior of ions as they migrate through the lattice structure of ion-conducting solids. In this way, ion transport can be simulated on much longer time scales than with Molecular Dynamics, thus providing broader insights into the statistics of diffusion processes.
