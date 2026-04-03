@@ -8,7 +8,7 @@ Since August 2025 in the group of Prof. Mathijs Janssen at NMBU (&Aring;s, Norwa
 
 # Studies
 **Doctorate:**
-2020&ndash;2025 in the group of Prof. R. A. De Souza at RWTH Aachen University (Aachen, Germany)
+2020&ndash;2025 in the group of Prof. R. A. De Souza at RWTH Aachen University (Aachen, Germany). Dissertation titled [Investigation of charge and mass transport in ion-conducting solids by means of continuum and atomistic simulations](https://doi.org/10.18154/RWTH-2025-05829)
 
 **MSc:**
 2017&ndash;2019 in Chemistry at RWTH Aachen University
