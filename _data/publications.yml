@@ -1,3 +1,10 @@
+- title: The impedance of a charged flat-plate electric double-layer capacitor
+  author: A. L. Usler, D. Fertig, M. Janssen
+  journal: arXiv preprint
+  year: 2026
+  doi: https://doi.org/10.48550/arXiv.2606.21980
+  abstract:  We calculate the impedance of a flat-plate electric double-layer (EDL) capacitor by means of Finite Element Method simulations of modified Poisson--Nernst--Planck equations. In Nyquist representation, the impedance spectra show a slanted line at intermediate frequencies if the capacitor is biased by a voltage, or if the cation and anion diffusion coefficients differ. By inspecting the concentration perturbations in the relevant frequency range, we confirm that the slanted line is in both cases related to ambipolar salt diffusion. On the basis of our impedance data, we disprove two previously made claims&colon; 1) that the width of the slanted-line region represents an EDL resistance; and 2) that the slope of the slanted line is a measure of the ratio of the diffusion and charging time scales. For the quantitative analysis of flat-electrode EDL capacitor impedance, we propose instead two equivalent circuits, for the cases of unequal diffusivities and nonzero bias. These two cases give rise to antisymmetric and symmetric salt perturbations, which are best described by a Warburg short and Warburg open element, respectively. From our circuit analysis, we obtain quantitative relations that link the Warburg prefactors to the ambipolar diffusion coefficient, the chemical capacitance of the bulk electrolyte, and the differential charge efficiency of the EDLs. We thus provide a theoretical framework that explains why the width of the slanted line saturates at large biases, why it vanishes for large ion packing fractions, and how the system's overall capacitance is limited by the finite amount of ions in a closed system.
+
 - title: Grain-Boundary Corrosion in UO<sub>2+&delta;</sub> from a Defect Chemical Perspective&colon; A Case Study of the &Sigma;5(310)[001] Grain Boundary
   author: M. J. Wolf, A. L. Usler, R. A. De Souza
   journal: ACS Appl. Mater. Interfaces
