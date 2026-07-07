@@ -6,7 +6,7 @@ layout: default
 # Topics
 <div class="card-container">
 <div class="card">
-## Grain-boundary space-charge layers in ion-conducting solids
+<h2>Grain-boundary space-charge layers in ion-conducting solids</h2>
 The electrical resistance of ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is often largely determined by the grain-to-grain contacts. The resistance of pristine grain boundaries in ion-conducting solids is generally attributed to the presence of space charge at the grain boundaries&mdash;specifically, the mobile majority charge carriers are depleted in the space-charge layers, owing to an excess charge of the grain-boundary core, by which they are repelled.
 In the scope of simplified models, properties of the grain-boundary space-charge layers in a sample may be deduced from electrical measurements (e.g. impedance spectroscopy). 
 
@@ -22,7 +22,7 @@ In my research, I have studied by means of continuum (FEM) simulations how the p
 </div>
 
 <div class="card">
-## Random-walk statistics on crystal lattices
+<h2>Random-walk statistics on crystal lattices</h2>
 The kinetics of ion transport in solid materials can be studied by means of atomistic simulations, by extracting a diffusion coefficient from the ions' trajectories. Specifically, the mean squared displacement (MSD) of the ions is analysed as a function of simulation time. The outcome of such a simulation is inherently subject to statistical uncertainties.
 
 In my research, I have focused on quantifying these uncertainties, in particular on how the error in a tracer diffusion coefficient depends on simulation parameters such as the number of diffusing particles, the total simulation time, and the crystal structure.
@@ -32,7 +32,7 @@ In my research, I have focused on quantifying these uncertainties, in particular
 # Methods
 <div class="card-container">
 <div class="card">
-## Finite Element Method
+<h2>Finite Element Method</h2>
 <div>
   <img src="/figures/fem_hatfunctions.png" alt="illustration of hat basis functions in FEM" style="max-width: 50%; float:right; margin: 10px;" />
 </div>
@@ -45,7 +45,7 @@ In the context of my research, FEM is employed to simulate the electrochemical s
 </div>
 
 <div class="card">
-## Kinetic Monte Carlo
+<h2>Kinetic Monte Carlo</h2>
 <div>
   <img src="/figures/random_oscillation_1736982453.png" alt="illustration of the kinetic Monte Carlo (kMC) method" style="max-width: 50%; float:right; margin: 10px;" />
 </div>
