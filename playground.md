@@ -4,6 +4,7 @@ layout: default
 ---
 
 # Topics
+<div class="card-container">
 <div class="card">
 ## Grain-boundary space-charge layers in ion-conducting solids
 The electrical resistance of ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is often largely determined by the grain-to-grain contacts. The resistance of pristine grain boundaries in ion-conducting solids is generally attributed to the presence of space charge at the grain boundaries&mdash;specifically, the mobile majority charge carriers are depleted in the space-charge layers, owing to an excess charge of the grain-boundary core, by which they are repelled.
@@ -26,7 +27,10 @@ The kinetics of ion transport in solid materials can be studied by means of atom
 
 In my research, I have focused on quantifying these uncertainties, in particular on how the error in a tracer diffusion coefficient depends on simulation parameters such as the number of diffusing particles, the total simulation time, and the crystal structure.
 </div>
+</div>
+
 # Methods
+<div class="card-container">
 <div class="card">
 ## Finite Element Method
 <div>
@@ -49,4 +53,5 @@ In the context of my research, FEM is employed to simulate the electrochemical s
 Kinetic Monte Carlo (kMC) is a stochastic simulation technique used to model the time evolution of a system. Unlike Molecular Dynamics simulations, which explicitly track the positions and velocities of individual atoms, kMC describes events on longer time scales by treating them as random processes with average event rates.
 
 In my research, kMC is utilized to study the random-walk behavior of ions as they migrate through the lattice structure of ion-conducting solids. In this way, ion transport can be simulated on much longer time scales than with Molecular Dynamics, thus providing broader insights into the statistics of diffusion processes.
+</div>
 </div>
