@@ -18,8 +18,7 @@ In my research, I have studied by means of continuum (FEM) simulations how the p
 
 <div class="card">
 <h2>Random-walk statistics on crystal lattices</h2>
-<div><img src="/figures/illustration_tracer_diffusion_corr.png" alt="illustration of tracer diffusion in a crystal lattice" style="max-width: 100%; float:right; margin: 10px;" /></div>
-</div>
+<div><img src="/figures/illustration_tracer_diffusion_corr.png" alt="illustration of tracer diffusion in a crystal lattice" style="max-width: 50%; float:right; margin: 10px;" /></div>
 The kinetics of ion transport in solid materials can be studied by means of atomistic simulations, by extracting a diffusion coefficient from the ions' trajectories. Specifically, the mean squared displacement (MSD) of the ions is analysed as a function of simulation time. The outcome of such a simulation is inherently subject to statistical uncertainties.
 
 In my research, I have focused on quantifying these uncertainties, in particular on how the error in a tracer diffusion coefficient depends on simulation parameters such as the number of diffusing particles, the total simulation time, and the crystal structure.
