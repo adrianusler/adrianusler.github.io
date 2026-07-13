@@ -16,10 +16,9 @@ Impedance spectroscopy is an electrical measurement technique in which electroch
 <div>
   <img src="/figures/RE_illustration.png" alt="illustration of the restricted-equilibrium model" style="max-width: 100%; float:right; margin: 10px;" />
 </div>
-The electrical resistance of ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is often largely determined by the grain-to-grain contacts. The resistance of pristine grain boundaries in ion-conducting solids is generally attributed to the presence of space charge at the grain boundaries&mdash;specifically, the mobile majority charge carriers are depleted in the space-charge layers, owing to an excess charge of the grain-boundary core, by which they are repelled.
-In the scope of simplified models, properties of the grain-boundary space-charge layers in a sample may be deduced from electrical measurements (e.g. impedance spectroscopy). 
-
-In my research, I have studied by means of continuum (FEM) simulations how the properties observed in electrical measurements can be affected by the thermal history of ceramic samples. During sample fabrication (sintering), the grain-boundary defect chemistry can undergo irreversible changes (e.g., accumulation of dopants at grain boundaries), which are typically disregarded in the analysis of electrical data.
+The electrical resistance of many ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is largely determined by the presence of space charge at the grain boundaries.
+With formulas from simplified models, one can estimate from electrical measurements the electric potential difference between the grain boundary and the grain bulk, called the space-charge potential.
+In my research, I have studied the validity of such estimates. Notably, the underlying models do not account for a sample's thermal history. During sample fabrication (sintering), the grain-boundary defect chemistry can undergo irreversible changes which are typically disregarded in the analysis of electrical data.
 </div>
 
 <div class="card">
