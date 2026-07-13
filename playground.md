@@ -1,5 +1,6 @@
 ---
 title: Research
+description: Electrochemistry &amp; Numerical Methods
 layout: default
 ---
 
