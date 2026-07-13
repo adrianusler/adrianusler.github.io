@@ -1,5 +1,6 @@
 ---
 title: Adrian Usler
+description: Electrochemistry &amp; Numerical Methods
 layout: default
 ---
 
