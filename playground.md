@@ -14,7 +14,7 @@ Impedance spectroscopy is an electrical measurement technique in which electroch
 <div class="card">
 <h3>Grain-boundary space-charge layers in ion-conducting solids</h3>
 <div>
-  <img src="/figures/RE_illustration.png" alt="illustration of the restricted-equilibrium model" style="max-width: 100%; float:right; margin: 10px;" />
+  <img src="/figures/RE_illustration.png" alt="illustration of the restricted-equilibrium model" style="max-width: 80%; display: inline-block; margin: 10px;" />
 </div>
 The electrical resistance of many ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is largely determined by the presence of space charge at the grain boundaries.
 With formulas from simplified models, one can estimate from electrical measurements the electric potential difference between the grain boundary and the grain bulk, called the space-charge potential.
