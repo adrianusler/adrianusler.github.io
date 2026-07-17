@@ -16,7 +16,7 @@ layout: default
   <a href="#popup_{{item.id}}">Show more</a>
   {% endif %}
 </div>
-<div id="popup_{{item.id}}" class="overlay">
+<a href="#" id="popup_{{item.id}}" class="overlay">
   <div class="popup">
     <h3>{{item.title}}</h3>
     {% if item.figure %}
@@ -25,7 +25,7 @@ layout: default
     {{item.abstract}}
     <a href="#">Close</a>
   </div>
-</div>
+</a>
 {% endfor %}
 </div><!-- end card-container -->
 
