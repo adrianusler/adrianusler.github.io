@@ -25,6 +25,7 @@ layout: default
     {{item.abstract}}
     <a href="#">Close</a>
   </div>
+</div>
 {% endfor %}
 </div><!-- end card-container -->
 
