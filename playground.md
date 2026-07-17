@@ -18,8 +18,8 @@ layout: default
 </div>
 <div id="popup_{{item.id}}" class="overlay">
   <div class="popup">
-    <a class="close" href="#">&times;</a>
     <h3>{{item.title}}</h3>
+    <a class="close" href="#">&times;</a>
     {% if item.figure %}
     <div><img src="{{item.figure}}" alt="{{item.title}}" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
     {% endif %}
@@ -29,42 +29,6 @@ layout: default
 </div>
 {% endfor %}
 </div><!-- end card-container -->
-
-# Topics
-<div class="card-container">
-<div class="card">
-<h3>Electrochemical Impedance Spectroscopy</h3>
-<div><img src="/figures/schematic_nyquist_four_features_1.png" alt="schematic impedance spectrum of a simulated flat-plate electric double-layer capacitor" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
-<a href="#popup_impedance">Show more</a>
-</div>
-
-<div id="popup_impedance" class="overlay">
-  <div class="popup">
-    <h3>Electrochemical Impedance Spectroscopy</h3>
-    <div><img src="/figures/schematic_nyquist_four_features_1.png" alt="schematic impedance spectrum of a simulated flat-plate electric double-layer capacitor" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
-    Impedance spectroscopy is an electrical measurement technique in which electrochemical systems are subjected to an oscillating stimulus, and the resulting response is measured. Different electrochemical processes (e.g., charge transfer, diffusion, and double-layer charging) can be distinguished by their characteristic time scales. The interpretation of impedance spectra requires detailed physical understanding of the involved processes. In my work, I use simulations to help interpret impedance spectra of electrochemical systems, with a focus on double layers in liquid electrolytes and space-charge layers in solid electrolytes.
-    <a href="#">Close</a>
-    </div>
-</div>
-
-<div class="card">
-<h3>Grain-boundary space-charge layers in ion-conducting solids</h3>
-<div>
-  <img src="/figures/RE_illustration.png" alt="illustration of the restricted-equilibrium model" style="max-width: 80%; display: inline-block; margin: 10px;" />
-</div>
-The electrical resistance of many ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is largely determined by the presence of space charge at the grain boundaries.
-With formulas from simplified models, one can estimate from electrical measurements the electric potential difference between the grain boundary and the grain bulk, called the space-charge potential.
-In my research, I have studied the validity of such estimates. Notably, the underlying models do not account for a sample's thermal history. During sample fabrication (sintering), the grain-boundary defect chemistry can undergo irreversible changes which are typically disregarded in the analysis of electrical data.
-</div>
-
-<div class="card">
-<h3>Random-walk statistics on crystal lattices</h3>
-<div><img src="/figures/illustration_tracer_diffusion_corr.png" alt="illustration of tracer diffusion in a crystal lattice" style="max-width: 50%; float:right; margin: 10px;" /></div>
-The kinetics of ion transport in solid materials can be studied by means of atomistic simulations, by extracting a diffusion coefficient from the ions' trajectories. Specifically, the mean squared displacement (MSD) of the ions is analysed as a function of simulation time. The outcome of such a simulation is inherently subject to statistical uncertainties.
-
-In my research, I have focused on quantifying these uncertainties, in particular on how the error in a tracer diffusion coefficient depends on simulation parameters such as the number of diffusing particles, the total simulation time, and the crystal structure.
-</div>
-</div>
 
 # Methods
 <div class="card-container">
