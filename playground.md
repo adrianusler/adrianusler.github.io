@@ -6,17 +6,33 @@ layout: default
 
 # Topics
 <div class="card-container">
+{% for item in site.data.topics %}
 <div class="card">
-<h3>Impedance spectroscopy of electrochemical systems</h3>
-<div><img src="/figures/schematic_nyquist_four_features_1.png" alt="schematic impedance spectrum of a simulated flat-plate electric double-layer capacitor" style="max-width: 50%; float:right; margin: 10px;" /></div>
-Impedance spectroscopy is... <a href="#popup_impedance">Show more</a>
-<!-- an electrical measurement technique in which electrochemical systems are subjected to an oscillating stimulus, and the resulting response is measured. Different electrochemical processes (e.g., charge transfer, diffusion, and double-layer charging) can be distinguished by their characteristic time scales. The interpretation of impedance spectra requires detailed physical understanding of the involved processes. In my work, I use simulations to help interpret impedance spectra of electrochemical systems, with a focus on double layers in liquid electrolytes and space-charge layers in solid electrolytes.-->
+  <h3>{{item.title}}</h3>
+  {% if item.figure %}
+  <div><img src="{{item.figure}}" alt="{{item.title}}" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
+  {% endif %}
+  {% if item.abstract %}
+  <a href="#popup_{{item.title | slugify}}">Show more</a>
+  {% endif %}
+</div>
+{% endfor %}
+</div><!-- end card-container -->
+
+# Topics
+<div class="card-container">
+<div class="card">
+<h3>Electrochemical Impedance Spectroscopy</h3>
+<div><img src="/figures/schematic_nyquist_four_features_1.png" alt="schematic impedance spectrum of a simulated flat-plate electric double-layer capacitor" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
+<a href="#popup_impedance">Show more</a>
 </div>
 
 <div id="popup_impedance" class="overlay">
   <div class="popup">
-    <h3>Extra information on impedance spectroscopy</h3>
+    <h3>Electrochemical Impedance Spectroscopy</h3>
+    <div><img src="/figures/schematic_nyquist_four_features_1.png" alt="schematic impedance spectrum of a simulated flat-plate electric double-layer capacitor" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
     Impedance spectroscopy is an electrical measurement technique in which electrochemical systems are subjected to an oscillating stimulus, and the resulting response is measured. Different electrochemical processes (e.g., charge transfer, diffusion, and double-layer charging) can be distinguished by their characteristic time scales. The interpretation of impedance spectra requires detailed physical understanding of the involved processes. In my work, I use simulations to help interpret impedance spectra of electrochemical systems, with a focus on double layers in liquid electrolytes and space-charge layers in solid electrolytes.
+    <a href="#">Close</a>
     </div>
 </div>
 
