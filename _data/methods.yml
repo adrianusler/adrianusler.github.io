@@ -1,0 +1,9 @@
+- title: Finite Element Method
+  id: fem
+  figure: /figures/fem_hatfunctions.png
+  abstract: The Finite Element Method (FEM) is a numerical technique used to solve differential equations. A particular strength of FEM is its ability to handle arbitrary subdivisions of the simulation domain into smaller, simpler parts (the elements). Computational effort can thus be focused on regions where a high accuracy is needed, while coarser discretisations can be used elsewhere. I employ FEM to simulate electrochemical systems, with a focus on double layers (in liquid electrolytes) and space-charge layers (in solid electrolytes).
+
+- title: Kinetic Monte Carlo
+  id: kmc
+  figure: /figures/random_oscillation_1736982453.png
+  abstract: Kinetic Monte Carlo (kMC) is a stochastic simulation technique used to model the time evolution of a system. Unlike Molecular Dynamics simulations, which explicitly track the positions and velocities of individual atoms, kMC describes events on longer time scales by treating them as random processes with average event rates. I use kMC to study the random-walk behavior of ions as they migrate through the lattice structure of ion-conducting solids. In this way, ion transport can be simulated on much longer time scales than with Molecular Dynamics, thus providing broader insights into the statistics of diffusion processes.
