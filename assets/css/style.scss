@@ -13,6 +13,11 @@ details > summary:first-of-type {
     padding-bottom: 2rem;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
 .card {
   background: white;
   padding: 2rem;
@@ -21,23 +26,17 @@ details > summary:first-of-type {
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
 .overlay {
   display: none;
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,.5);
 }
-
 .overlay:target {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .popup {
   position: relative;
   max-width: 700px;
@@ -46,7 +45,6 @@ details > summary:first-of-type {
   border-radius: 12px;
   background: white;
 }
-
 .close {
   position: absolute;
   top: .8rem;
@@ -55,7 +53,6 @@ details > summary:first-of-type {
   text-decoration: none;
   color: #666;
 }
-
 .close:hover {
   color: black;
 }
