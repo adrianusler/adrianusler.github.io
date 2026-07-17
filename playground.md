@@ -21,7 +21,7 @@ layout: default
     <h3>{{item.title}}</h3>
     <a class="close" href="#">&times;</a>
     {% if item.figure %}
-    <div><img src="{{item.figure}}" alt="{{item.title}}" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
+    <div><img src="{{item.figure}}" alt="{{item.title}}" style="max-width: 50%; float:right; margin: 10px;" /></div>
     {% endif %}
     {{item.abstract}}
     <a href="#">Close</a>
