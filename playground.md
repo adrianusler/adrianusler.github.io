@@ -9,7 +9,15 @@ layout: default
 <div class="card">
 <h3>Impedance spectroscopy of electrochemical systems</h3>
 <div><img src="/figures/schematic_nyquist_four_features_1.png" alt="schematic impedance spectrum of a simulated flat-plate electric double-layer capacitor" style="max-width: 50%; float:right; margin: 10px;" /></div>
-Impedance spectroscopy is an electrical measurement technique in which electrochemical systems are subjected to an oscillating stimulus, and the resulting response is measured. Different electrochemical processes (e.g., charge transfer, diffusion, and double-layer charging) can be distinguished by their characteristic time scales. The interpretation of impedance spectra requires detailed physical understanding of the involved processes. In my work, I use simulations to help interpret impedance spectra of electrochemical systems, with a focus on double layers in liquid electrolytes and space-charge layers in solid electrolytes.
+Impedance spectroscopy is... <a href="#popup_impedance">Show more</a>
+<!-- an electrical measurement technique in which electrochemical systems are subjected to an oscillating stimulus, and the resulting response is measured. Different electrochemical processes (e.g., charge transfer, diffusion, and double-layer charging) can be distinguished by their characteristic time scales. The interpretation of impedance spectra requires detailed physical understanding of the involved processes. In my work, I use simulations to help interpret impedance spectra of electrochemical systems, with a focus on double layers in liquid electrolytes and space-charge layers in solid electrolytes.-->
+</div>
+
+<div id="popup_impedance" class="overlay">
+  <div class="popup">
+    <h3>Extra information on impedance spectroscopy</h3>
+    Impedance spectroscopy is an electrical measurement technique in which electrochemical systems are subjected to an oscillating stimulus, and the resulting response is measured. Different electrochemical processes (e.g., charge transfer, diffusion, and double-layer charging) can be distinguished by their characteristic time scales. The interpretation of impedance spectra requires detailed physical understanding of the involved processes. In my work, I use simulations to help interpret impedance spectra of electrochemical systems, with a focus on double layers in liquid electrolytes and space-charge layers in solid electrolytes.
+    </div>
 </div>
 
 <div class="card">
