@@ -13,9 +13,18 @@ layout: default
   <div><img src="{{item.figure}}" alt="{{item.title}}" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
   {% endif %}
   {% if item.abstract %}
-  <a href="#popup_{{item.title | slugify}}">Show more</a>
+  <a href="#popup_{{item.id}}">Show more</a>
   {% endif %}
 </div>
+<div id="popup_{{item.id}}" class="overlay">
+  <div class="popup">
+    <h3>{{item.title}}</h3>
+    {% if item.figure %}
+    <div><img src="{{item.figure}}" alt="{{item.title}}" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
+    {% endif %}
+    {{item.abstract}}
+    <a href="#">Close</a>
+  </div>
 {% endfor %}
 </div><!-- end card-container -->
 
