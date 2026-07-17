@@ -7,3 +7,8 @@
   id: gb-space-charge
   figure: /figures/RE_illustration.png
   abstract: The electrical resistance of many ion-conducting oxides (useful e.g. as solid electrolytes in fuel cells) is largely determined by the presence of space charge at the grain boundaries. With formulas from simplified models, one can estimate from electrical measurements the electric potential difference between the grain boundary and the grain bulk, called the space-charge potential. In my research, I have studied the validity of such estimates. Notably, the underlying models do not account for a sample's thermal history. During sample fabrication (sintering), the grain-boundary defect chemistry can undergo irreversible changes which are typically disregarded in the analysis of electrical data.
+
+- title: Random-walk statistics on crystal lattices
+  id: random-walk
+  figure: /figures/illustration_tracer_diffusion_corr.png
+  abstract: The kinetics of ion transport in solid materials can be studied by means of atomistic simulations, by extracting a diffusion coefficient from the ions' trajectories. Specifically, the mean squared displacement (MSD) of the ions is analysed as a function of simulation time. The outcome of such a simulation is inherently subject to statistical uncertainties. In my research, I have focused on quantifying these uncertainties, in particular on how the error in a tracer diffusion coefficient depends on simulation parameters such as the number of diffusing particles, the total simulation time, and the crystal structure.
