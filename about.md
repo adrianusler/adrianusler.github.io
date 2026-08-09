@@ -3,10 +3,10 @@ title: About Me
 layout: default
 ---
 
-# Postdoctoral Research
-Since August 2025 in the group of Prof. Mathijs Janssen at NMBU (&Aring;s, Norway)
+# Timeline
+**Postdoctoral Research:**
+Since 2025 in the group of Prof. Mathijs Janssen at NMBU (&Aring;s, Norway)
 
-# Studies
 **Doctorate:**
 2020&ndash;2025 in the group of Prof. R. A. De Souza at RWTH Aachen University (Aachen, Germany). Dissertation titled [Investigation of charge and mass transport in ion-conducting solids by means of continuum and atomistic simulations](https://doi.org/10.18154/RWTH-2025-05829)
 
