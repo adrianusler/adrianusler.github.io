@@ -10,8 +10,8 @@ layout: default
   <h3>Applied voltage bias</h3>
   <div><img src="/figures/profiles_multifreq_with_inset_voltpulse__L100__bias4p000__mesh_m2__100.gif" alt="Applied voltage bias" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
   <!-- <a href="#popup_1">Show more</a> -->
-</div>
-<div class="card">
+</div><!--
+--><div class="card">
   <h3>Unequal diffusion coefficients</h3>
   <div><img src="/figures/profiles_multifreq_with_inset_voltpulse__L100__diffrat20__mesh_m2__100.gif" alt="Unequal diffusion coefficients" style="max-width: 100%; display:inline-block; margin: 10px;" /></div>
   <!-- <a href="#popup_2">Show more</a> -->
