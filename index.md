@@ -18,7 +18,7 @@ Since 2025 in the group of Prof. Mathijs Janssen at NMBU (&Aring;s, Norway)
 **MSc:**
 2017&ndash;2019 in Chemistry at RWTH Aachen University
 
-**BSc**
+**BSc:**
 2014&ndash;2017 in Chemistry at RWTH Aachen University
 
 ## Music
